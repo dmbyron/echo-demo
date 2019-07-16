@@ -1,0 +1,107 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+body {
+   background: #FFFFFF;
+   font-family:Raleway;
+}
+
+h1 {
+   padding-bottom: 20px;
+}
+
+header  {
+   padding-left: 80px;
+   padding-right: 80px;
+   background-color: #ABC4CC;
+}
+
+p {
+   font-size: 120%;
+}
+
+.dot {
+   fill: #000;
+}
+
+#viz {
+   margin-left:100px;
+   margin-top:50px;
+}
+
+.ring {
+   fill: none;
+   stroke: #000;
+}
+
+.rect {
+   fill: none;
+   stroke: #000;
+}
+
+#amp {
+   margin-left: 80px;
+}
+
+#model {
+   padding-left: 80px;
+   padding-right: 80px;
+}
+
+#button {
+   float: right;
+   font-size: 110%;
+}
+
+@media (min-width: 1200px) {
+   #button {
+      margin-top: 305px;
+   }
+}
+
+#sine-wave {
+   margin-left: 135px;
+   padding: 15px;
+}
+
+#myselectform {
+   margin-bottom: 19px;
+}
+
+#trade {
+   text-align: right;
+}
+footer {
+   margin-top: 30px;
+   padding-left: 30px;
+   padding-right:30px;
+   padding-bottom: 8px;
+   padding-top: 4px;
+   font-size: 100%;
+   background-color: #ABC4CC;
+}
+
+#third-interaction {
+   margin-bottom: 8px;
+}
+
+/* unvisited link */
+a:link {
+    color: #0033CC;
+}
+
+/* visited link */
+a:visited {
+    color: #4D70DB;
+}
+
+/* mouse over link */
+a:hover {
+    color: #4D70DB;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
